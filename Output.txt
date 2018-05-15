@@ -1,0 +1,102 @@
+
+-----Expected and actual output-----
+
+Query 1-Output
+
+1A) Most
+
+BPROD_ID   COUNT(BPROD_ID)
+
+---------- ---------------
+
+B002                     3
+
+B) Least
+
+BPROD_ID   COUNT(BPROD_ID)
+
+---------- ---------------
+
+B003                     1
+
+
+Query 2 -Output
+
+PROD_ID    BUY_DATE
+
+---------- ---------
+
+B007       03-SEP-16
+
+
+Query 3 -Output
+
+
+MPROD_ID     MAXCOUNT
+---------- ----------
+M003                2
+
+Query 4 -Output
+
+  SSN NAME                                     ROUND(SYSDATE-DOJ)
+---------- ---------------------------------------- ------------------
+DAYSWITHCO
+----------
+ 785786631 Tej                                                     579
+TPJ002
+
+ 787123413 Jo                                                      440
+TPJ001
+
+ 785786413 Poo                                                     308
+TPJ002
+
+
+       SSN NAME                                     ROUND(SYSDATE-DOJ)
+---------- ---------------------------------------- ------------------
+DAYSWITHCO
+----------
+ 554489831 Karl                                                    153
+TPJ003
+
+ 554543888 Mark                                                     45
+TPJ003
+
+ 787345999 Sam                                                       3
+TPJ001
+
+
+Query 5-Output
+
+
+CNAME           TOTAL
+---------- ----------
+CS                  2
+
+
+Query 6-Output
+
+
+BID        SUM(SELLING_PRICE)   EXPENSES     PROFIT
+---------- ------------------ ---------- ----------
+TPJ001                   1030        200        830
+
+
+Query 7-Output
+
+       CID NAME                                     TOTALPURCHASEAMT
+---------- ---------------------------------------- ----------------
+     10001 Karthik                                               400
+     10004 Loki                                                  200
+     10005 Sherlock                                              100
+
+Query 8-Output
+
+ProdCount
+----------------------
+	5
+	6
+
+
+
+
